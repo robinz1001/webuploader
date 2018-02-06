@@ -1255,7 +1255,7 @@
                     return this._container;
                 }
     
-                parent = $( opts.container || document.body );
+                parent = $( opts.id || document.body );
                 container = $( document.createElement('div') );
     
                 container.attr( 'id', 'rt_' + this.uid );
